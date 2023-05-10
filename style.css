@@ -1,62 +1,79 @@
-*{
+.body{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #ecf0f3;
-    font-family: sans-serif;
-    outline: none;
+    align-items: left;
+    height: 30px;
+    justify-content: left;
+    background-color: aquamarine;
+
 }
-.container{
-    height: 100vh;
-    display: flex;
-    justify-content:  center;
-    align-items: center;
+
+h2{
+    
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: sans-serif serif;
+}
+p{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3{
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+    font-family: sans-serif serif;
+    line-height: 3px;
+}
+h4{
+    font-size: 20px;
+    font-family:sans-serif serif;
+    letter-spacing: 1px;
+    line-height: 3px;
+}
+h5{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    line-height: 4px;
+    
+}
+h6{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 3px;
+    text-align: left;
+
+}
+h1{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 3px;
+    text-align: center;
+}
+h2{ font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 3px;
+    text-align: left;
+
+}
+h3{font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 3px;
+    text-align: left;
+
+}
+h4{font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 3px;
+    text-align: left;
 
 
 }
-.calculator{
-    background-color: #ecf0f3;
-    padding: 15px;
-    border-radius: 30px;
-    box-shadow: inset 5px 5px 12px #ffffff,
-                      5px 5px 12px rgba(0,0,0,.16);
-    display: grid;  
-    grid-template-columns: repeat(4,68px);                
+h5{font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 3px;
+    text-align: left;
 
 
-}
-input{
-    grid-column: span 4;
-    height: 70px;
-    width: 260px;
-    background-color: #ecf0f3;
-    box-shadow: inset -5px -5px 12px #ffffff
-                inset 5px 5px 12px rgba(0,0,0,.16) ;              
-    border: none;
-    border-radius: 30px;
-    color: rgb(70, 70, 70);
-    font-size: 50px;
-    text-align: end;
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    padding: 20px;
-}  
-button{
-    height: 48px;
-    width: 48px;
-    background-color: #ecf0f3;
-    box-shadow: -5px -5px 12px #ffffff
-                 5px 5px 12px rgba(0,0,0,.16);
-    border: none;
-    border: 50%;
-    margin: 8px;
-    font-size: 16px;
-}
-.equal{
-    width: 115px;
-    border-radius: 40px;
-    background-color: #ecf0f3;
-    box-shadow: -5px -5px 12px #ffffff
-                 5px 5px 12px rgba(0,0,0,.16);
 }
